@@ -7,7 +7,7 @@ comments: false
 excerpt:
 tags: []
 image:
-  feature:
+feature:
 date: 2014-11-30T17:04:01+00:00
 ---
 
