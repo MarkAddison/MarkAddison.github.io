@@ -1,0 +1,58 @@
+# Site wide configuration
+
+title:            Mark Addison's Blogs
+locale:           en_GB
+url:              http://blog.markaddison.net
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Mark Addison
+  avatar: https://avatars1.githubusercontent.com/u/8737965?v=3&s=460
+##avatar: https://raw.githubusercontent.com/MarkAddison/public/master/ProfilePhoto.jpg
+  bio: Software Engineer from Surrey England
+  email: mark.addison.uk@gmail.com
+  disqus-shortname: tech-matters
+  twitter: MarkAddisonGB
+  facebook: #username
+  google:
+    plus: MarkAddisonUK
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: MarkAddison/public
+  stackoverflow: 4285435/markaddison
+  linkedin: markaddison
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
