@@ -35,6 +35,6 @@ You will need to install the following technical components:
 To create the Jersey web-app project, execute the following Maven archetype command in the directory where the new project should reside:
 
 ```
-mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes \
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -DarchetypeGroupId=org.glassfish.jersey.archetypes
     -DinteractiveMode=false -DgroupId=com.addison -DartifactId=jersey-webapp -Dpackage=com.addison -DarchetypeVersion=2.13
 ```
