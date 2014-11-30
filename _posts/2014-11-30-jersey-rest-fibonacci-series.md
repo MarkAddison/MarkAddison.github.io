@@ -39,25 +39,4 @@ mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -Darchetyp
     -DinteractiveMode=false -DgroupId=com.addison -DartifactId=jersey-webapp -Dpackage=com.addison -DarchetypeVersion=2.13
 ```
 
-### Java project skeleton structure
-
-{% highlight text %}
-    jersey-webapp
-    ¦   pom.xml
-    ¦
-    +---src
-    +---main
-        +---java
-        ¦   +---com
-        ¦       +---addison
-        ¦               MyResource.java
-        ¦
-        +---resources
-        +---webapp
-        ¦   index.jsp
-        ¦
-        +---WEB-INF
-                web.xml
-{% endhighlight %}
-
 This essentially creates a very simple REST web-app, which retrieves a static string response.
