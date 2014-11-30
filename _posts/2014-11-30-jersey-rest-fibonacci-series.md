@@ -3,7 +3,7 @@ layout: post
 title: Jersey REST Fibonacci Series
 modified: 2014-11-30
 categories: java
-comments: true
+comments: false
 excerpt:
 tags: []
 image:
