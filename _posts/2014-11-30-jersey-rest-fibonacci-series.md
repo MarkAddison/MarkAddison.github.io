@@ -56,3 +56,5 @@ mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -Darchetyp
                 ¦
                 +---WEB-INF
                         web.xml
+
+This essentially creates a very simple REST web-app, which retrieves a static string response.
